@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+    <link rel="stylesheet" type="test/css" href="style.css">
+</head>
+<body>
+    <h1>Sign Up!</h1>
+    <div id = 'main'>
+        <form name = "myForm" action= "" onsubmit="return Validate()" method = "POST">
+            <div>
+                <input type="text" name="username" class="textInput" placeholder="Username">
+                <div id = "name_error" class="val_error"></div>
+            </div>
+            <div>
+                <input type="email" name="email" class="textInput" size = "35" placeholder="Email Address">
+                <div id = "email_error" class="val_error"></div>
+            </div>
+            <div>
+                <input type="password" name="password" class="textInput" placeholder="Password">
+            </div>
+            <div>
+                <input type="password" name="password_confirmation" class="textInput" placeholder="Password Confirmation">
+                <div id = "password_error" class="val_error"></div>
+            </div>
+            <div>
+                <input type="submit" value = "Register" class="btn" name="register">
+            </div>
+        </br></br></br></br></br>
+            <p>WE ARE HAPPY TO SEE YOU!</p></br></br>
+            <p>SUNSHINE</p>
+        </form>
+    </div>
+    <script src="vald.js"></script>
+</body>
+</html>
